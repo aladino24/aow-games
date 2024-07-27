@@ -1,0 +1,28 @@
+.login-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+  }
+  
+  .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  

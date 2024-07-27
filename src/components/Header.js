@@ -50,9 +50,9 @@ const Header = () => {
             </li>
           </ul>
           <span className="navbar-text">
-            <a className="nav-link" href="https://github.com/aladino24/mostrans-test-case">
+            <Link className="nav-link" to="/login">
               Login Member
-            </a>
+            </Link>
           </span>
         </div>
       </div>

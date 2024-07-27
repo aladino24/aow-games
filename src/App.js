@@ -1,8 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Header from "./components/Header";
-import RoomWar from "./pages/RoomWar";
 import Lobby from "./pages/lobby/Lobby";
+import Homepage from "./pages/Homepage";
+import Dashboard from "./pages/dashboard/Dashboard";
+import Login from "./pages/login/Login";
 
 function App() {
   return (
@@ -12,8 +14,10 @@ function App() {
             <Header />
           </div>
         <Routes>
-          <Route path="/" element={<RoomWar />} />
+          <Route path="/" element={<Homepage />} />
           <Route path="/lobby" element={<Lobby />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
      </Router>
     </div>

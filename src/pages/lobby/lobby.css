@@ -1,5 +1,31 @@
+textarea.form-control {
+  color: black; 
+  border: 1px solid rgba(0, 0, 0, 0.2);; 
+}
+
+textarea.form-control:hover,
+textarea.form-control:focus {
+  color: black; 
+  border: 1px solid rgba(0, 0, 0, 0.2); 
+}
+
+
 .large-img {
-    width: 70%;
-    max-width: 230px; /* Sesuaikan ukuran maksimum yang diinginkan */
-  }
-  
+  width: 70%;
+  max-width: 230px; 
+}
+
+.custom-button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
+}
