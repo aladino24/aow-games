@@ -1,0 +1,26 @@
+.player-page {
+    padding: 20px;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.table-title {
+    margin: 0;
+}
+
+.p-input-icon-left .p-inputtext {
+    padding-left: 2.5rem;
+}
+
+.p-input-icon-left .pi {
+    left: 1rem;
+}
+
+.p-datatable {
+    margin-top: 20px;
+}

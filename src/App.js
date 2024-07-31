@@ -5,8 +5,9 @@ import Lobby from "./pages/lobby/Lobby";
 import Homepage from "./pages/Homepage";
 import Dashboard from "./pages/dashboard/Dashboard";
 import Login from "./pages/login/Login";
+import Player from "./pages/player/Player";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
      <Router>
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/lobby" element={<Lobby />} />
+          <Route path="/player" element={<Player />}/>
           <Route path="/login" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
